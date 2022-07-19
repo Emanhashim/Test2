@@ -7,7 +7,7 @@ import { RadialBarChart, RadialBar} from "recharts";
 import { BsThreeDots } from "react-icons/bs";
 import {BiRotateLeft } from "react-icons/bi";
 import React, { useState, useEffect } from 'react'
-import axios from "axios";
+
 
 import scrollreveal from "scrollreveal";
 const data = [

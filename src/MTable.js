@@ -1,4 +1,4 @@
-import faker from 'faker';
+
 import React ,{useState,useEffect} from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import "./Form1.css"
@@ -58,12 +58,12 @@ const useStyles = makeStyles((theme) => ({
 let summaryw = [], STATUSES = ['Active', 'Pending', 'Blocked'];
 for(let i=0;i<14;i++) {
     summaryw[i] = {
-        name: faker.name.findName(),
-        email: faker.internet.email(),
-        phone: faker.phone.phoneNumber(),
-        jobTitle: faker.name.jobTitle(),
-        company: faker.company.companyName(),
-        joinDate: faker.date.past().toLocaleDateString('en-US'),
+        name: "",
+        email: "",
+        phone: "",
+        jobTitle: "",
+        company: "",
+        joinDate: "",
         status: STATUSES[Math.floor(Math.random() * STATUSES.length)]
     }
 }
