@@ -1,0 +1,65 @@
+.form-containerxc {
+ 
+  margin-left: 5vw;
+  margin-bottom: 0.1vw;
+  border-radius: 20px ;
+  height: 1080px;
+  width: 1980px;
+  display: grid;
+
+ 
+ 
+}
+.search__bar12 {
+  display: inline;
+  margin-left: 24vw;
+  margin-top: 1vw;
+}
+.search__bar1 {
+
+  background-color: white;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2vw;
+ 
+  display: block;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 2px;
+  height: 40px;
+  width: 300px;
+  border: none;
+  outline: none !important;
+  border-radius: 10px;
+
+    box-shadow: 0 0 3px #080808;
+  }
+  
+.search__bar1 {
+  margin-left: 7vw;
+} 
+.input {
+  height: 5vh;
+  width: 15vw;
+
+  border: none;
+ 
+}
+focus {
+  outline: none;
+}
+.download-table-xls-button{
+  box-shadow: 0 0 2px #080808;
+  width: 200px;
+  height: 40px;
+  margin-top: 10px;
+  color: white;
+  background: #303f9f;
+
+  outline: none;
+  border: none;
+  color: rgb(12, 12, 12);
+  font-size: 1rem;
+  border-radius: 20px;
+}
